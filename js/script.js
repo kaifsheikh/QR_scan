@@ -31,3 +31,14 @@ qrinput.addEventListener('keyup', () => {
         wrapper.classList.remove('active');
     }
 });
+
+// Downlaod QR COde
+document.getElementById('downloadImg').addEventListener('click' , function(){
+    var imgURL = document.getElementById('imageToDownload').src;
+
+    var a = document.createElement('a');
+    a.href = imgURL;
+    a.download = 'QR_CODE.jpg';
+
+    a.click();
+});

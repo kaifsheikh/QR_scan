@@ -18,7 +18,8 @@ body {
 .wrapper {
     background-color: #fff;
     max-width: 410px;
-    height: 260px;
+    /* height: 260px; */
+    height: 330px;
     border-radius: 7px;
     padding: 16px 25px;
     transition: height 0.2s ease;
@@ -26,7 +27,7 @@ body {
 
 /* .active yeah class Js ki madeed se ay he  */
 .wrapper.active {
-    height: 530px;
+    height: 550px;
 }
 
 .wrapper header h1 {
@@ -80,4 +81,12 @@ body {
     opacity: 1;
     pointer-events: auto;
     transition: opacity 0.5s 0.5s ease;
+}
+
+.btn button{
+    background-color: #369d8a;
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 17px;
 }
